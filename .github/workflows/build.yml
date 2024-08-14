@@ -7,11 +7,13 @@ on:
       - 'docs/**'
       - 'mirai-console/docs/**'
       - '**/*.md'
+      - 'LICENSE'
   pull_request:
     paths-ignore:
       - 'docs/**'
       - 'mirai-console/docs/**'
       - '**/*.md'
+      - 'LICENSE'
 
 jobs:
   build:
